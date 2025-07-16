@@ -1,0 +1,46 @@
+header {
+    padding-block: 32px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+#profile > div {
+max-width: 384px;}
+
+#profile h1 {
+    color: var(--text-color-primary);
+    font: var(--text-lg);
+    margin-bottom: 8px;
+}
+
+#profile p {
+    color: var(--text-color-secondary);
+    font: var(--text-md);
+}
+
+#travel-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    width: 280px;
+}
+
+.details-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: var(--text-color-secondary);
+    font: var(--text-md);
+}
