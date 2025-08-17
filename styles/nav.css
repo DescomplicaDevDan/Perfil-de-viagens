@@ -17,3 +17,36 @@ nav {
 #primary-menu a img {
     display: block;
 }
+
+#menu-toggle {
+    display: none; 
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+
+     #primary-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 60px; 
+        left: 0;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 20px 0;
+        list-style: none;
+        gap: 0;
+     }
+
+     #primary-menu.is-visible {
+        display: flex;
+    }
+
+     #primary-menu li a {
+        display: block;
+    }
+}

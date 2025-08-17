@@ -21,6 +21,10 @@
                     <img src="assests/icons/Logo.svg" alt="logo Travelgram">
                 </a>
 
+                <button id="menu-toggle" aria-label="Abrir menu">
+                    ☰ 
+                </button>
+
                 <ul id="primary-menu">
                     <li>
                         <a href="#">
@@ -77,19 +81,29 @@
     </div> 
 
     <main class="container">
-        <img src="assests/images/Image 01.png" alt="Barco no meio de um lago com montanhas em volta.">
-        <img src="assests/images/Image 02.png" alt="canal com prédios antigos em Veneza.">
-        <img src="assests/images/Image 03.png" alt="Ponte Rialto e o Grande Canal.">
-        <img src="assests/images/Image 04.png" alt="Mesa em um restaurante à beira d eum canal.">
-        <img src="assests/images/Image 05.png" alt="Cinque Terre, vilarejos coloridos na costa italiana.">
-        <img src="assests/images/Image 06.png" alt="Paisagem costeira com vilarejos e mar azul.">
-        <img src="assests/images/Image 07.png" alt="Ponte Velha em Florença.">
-        <img src="assests/images/Image 08.png" alt="Duomo de Florença.">
-        <img src="assests/images/Image 09.png" alt="Rua estreita com casas coloridas e uma scooter.">
-        <img src="assests/images/Image 10.png" alt="Duas scooters estacionadas em uma rua de paralelepípedos.">
-        <img src="assests/images/Image 11.png" alt="Mesa com pratos de massa e bebidas.">
-        <img src="assests/images/Image 12.png" alt="Coliseu em Roma.">
+        <img class="gallery-image" src="assests/images/Image 01.png" alt="Barco no meio de um lago com montanhas em volta.">
+        <img class="gallery-image" src="assests/images/Image 02.png" alt="canal com prédios antigos em Veneza.">
+        <img class="gallery-image" src="assests/images/Image 03.png" alt="Ponte Rialto e o Grande Canal.">
+        <img class="gallery-image" src="assests/images/Image 04.png" alt="Mesa em um restaurante à beira d eum canal.">
+        <img class="gallery-image" src="assests/images/Image 05.png" alt="Cinque Terre, vilarejos coloridos na costa italiana.">
+        <img class="gallery-image" src="assests/images/Image 06.png" alt="Paisagem costeira com vilarejos e mar azul.">
+        <img class="gallery-image" src="assests/images/Image 07.png" alt="Ponte Velha em Florença.">
+        <img class="gallery-image" src="assests/images/Image 08.png" alt="Duomo de Florença.">
+        <img class="gallery-image" src="assests/images/Image 09.png" alt="Rua estreita com casas coloridas e uma scooter.">
+        <img class="gallery-image" src="assests/images/Image 10.png" alt="Duas scooters estacionadas em uma rua de paralelepípedos.">
+        <img class="gallery-image" src="assests/images/Image 11.png" alt="Mesa com pratos de massa e bebidas.">
+        <img class="gallery-image" src="assests/images/Image 12.png" alt="Coliseu em Roma.">
     </main>
+        
+        <div id="image-modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <img id="modal-image" src="" alt="Imagem ampliada">
+            </div>
+        </div>
+
+        <script src="script.js" defer></script>
+
 
 </body>
 
