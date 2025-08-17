@@ -9,3 +9,17 @@ footer {
 footer span:nth-child(1) {
     margin-right: auto;
 }
+
+@media (max-width: 768px) {
+    footer.container {
+        flex-direction: column;
+        align-items: center; 
+        gap: 10px; 
+    }
+    
+    footer.container span {
+        font-size: 14px;
+        text-align: center; 
+        width: 100%;
+    }
+}

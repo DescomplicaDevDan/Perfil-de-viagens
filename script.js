@@ -28,3 +28,10 @@ modal.addEventListener('click', (event) => {
         closeModal();
     }
 });
+
+const menuToggle = document.getElementById('menu-toggle');
+const primaryMenu = document.getElementById('primary-menu');
+
+menuToggle.addEventListener('click', () => {
+    primaryMenu.classList.toggle('is-visible');
+});
