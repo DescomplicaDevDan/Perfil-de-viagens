@@ -1,59 +1,62 @@
-# 📸 Travelgram: Seu Diário de Viagens Visual - Projeto acâdemico
+📸 Travelgram: Seu Diário de Viagens Visual - Projeto Acadêmico
+🌟 Visão Geral do Projeto
+O Travelgram é uma página de perfil de usuário para um aplicativo de diário de viagens visual. Este projeto demonstra um design limpo, responsivo e interativo, focado na experiência do usuário para exibir o perfil de um viajante e sua galeria de fotos.
 
-## 🌟 Visão Geral do Projeto
+Desenvolvido com HTML5, CSS3 e JavaScript, o projeto demonstra a integração dessas três tecnologias para criar uma interface funcional e moderna.
 
-O **Travelgram** é uma página de perfil de usuário projetada para um aplicativo ou plataforma de diário de viagens visual. Inspirado nas tendências atuais de design de interfaces de mídia social e blogs de viagem, este projeto foca em uma apresentação limpa, responsiva e visualmente atraente do perfil de um viajante, suas estatísticas e uma galeria de fotos de suas aventuras.
+✨ Recursos
+Barra de Navegação Responsiva: A barra de navegação se adapta a diferentes tamanhos de tela. Em dispositivos móveis, um menu hambúrguer (☰) aparece, permitindo que os links de navegação sejam acessados de forma eficiente.
 
-Desenvolvido com **HTML5** e **CSS3**, o Travelgram demonstra boas práticas de desenvolvimento web, incluindo semântica, acessibilidade e um design responsivo que se adapta a diferentes tamanhos de tela.
+Seção de Perfil Dinâmica:
 
-## ✨ Recursos
+Exibe uma foto de perfil, nome, biografia e estatísticas de viagem (países visitados e número de fotos).
 
-* **Barra de Navegação Intuitiva:** Com logo, links de navegação (`Explorar`, `Minhas viagens`) e ícones funcionais (`Lupa`, `Perfil`).
-* **Seção de Perfil Dinâmica:**
-    * Foto de perfil circular com borda de destaque.
-    * Nome do usuário (`Isabela Torres`) e uma biografia concisa e envolvente.
-    * **Estatísticas de Viagem:** Exibição clara de localização atual, número de países visitados e quantidade de fotos publicadas, utilizando ícones para melhor compreensão.
-* **Galeria de Imagens Responsiva:**
-    * Layout em grade de fotos, utilizando `display: flex` com `flex-wrap` para adaptação.
-    * Imagens de tamanho fixo, mas que se organizam de forma fluida.
-    * Efeito de zoom suave (`scale`) ao passar o mouse sobre as fotos, proporcionando uma experiência interativa.
-* **Design Clean e Moderno:** Utilização da fonte "Poppins" e uma paleta de cores agradável para uma experiência visual sofisticada.
-* **Estrutura CSS Modular:** Estilos organizados em arquivos separados (`global.css`, `nav.css`, `header.css`, `gallery.css`) e importados via `@import` no `index.css`, facilitando a manutenção e escalabilidade.
-* **Acessibilidade:** Uso de atributos `alt` em todas as imagens para garantir que o conteúdo seja acessível a leitores de tela.
+O layout se ajusta para se manter legível e organizado em telas menores.
 
-## 🛠️ Tecnologias Utilizadas
+Galeria de Imagens Interativa:
 
-* **HTML5:** Para a estrutura e semântica do conteúdo.
-* **CSS3:** Para a estilização e responsividade, com ênfase em:
-    * **Flexbox:** Para layout de navegação e seções do cabeçalho.
-    * **Variáveis CSS (`:root`):** Para gerenciamento eficiente de cores e tipografia.
-    * **`object-fit: cover`:** Para garantir que as imagens preencham seus contêineres sem distorção.
-    * **`box-shadow` e `border-radius`:** Para criar um visual de "cards" flutuantes.
-    * **`transition` e `transform`:** Para efeitos de interação suaves.
-* **Google Fonts:** Utilização da fonte "Poppins" para uma tipografia moderna.
-* **Ícones SVG:** Ícones leves e escaláveis para elementos interativos e informativos.
+Layout em grade de fotos que se adapta a telas maiores e menores.
 
-## 🚀 Como Executar o Projeto
+Ao clicar em qualquer imagem, um modal é aberto, exibindo a foto em tamanho maior para uma visualização detalhada.
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/DescomplicaDevDan/Perfil-de-viagens.git](https://github.com/DescomplicaDevDan/Perfil-de-viagens.git)
-    ```
-2.  **Navegue até o diretório do projeto:**
-    ```bash
-    cd travelgram
-    ```
-3.  **Abra o arquivo `index.html` em seu navegador web preferido.**
-    * Alternativamente, você pode usar uma extensão de servidor local como "Live Server" no VS Code para auto-recarregamento.
+O modal pode ser fechado clicando no botão 'x' ou fora da imagem.
 
-## 🤝 Contribuições
+Design Clean e Moderno: Utiliza a fonte "Poppins" e uma paleta de cores agradável, proporcionando uma experiência visual sofisticada.
 
-Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+Estrutura CSS Modular: Estilos organizados em arquivos separados (nav.css, header.css, main.css, footer.css) e importados no index.css, facilitando a manutenção e a escalabilidade do código.
 
-## 📄 Licença
+JavaScript para Interatividade: O script script.js é responsável por:
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Controlar a exibição e o fechamento do menu de navegação em telas pequenas.
 
-## 📞 Contato
+Gerenciar a abertura e o fechamento do modal de imagem.
 
+🛠️ Tecnologias Utilizadas
+HTML5: Para a estrutura e semântica do conteúdo.
+
+CSS3: Para a estilização e responsividade, incluindo o uso de Flexbox para layout e variáveis CSS (:root) para gerenciamento de cores e tipografia.
+
+JavaScript: Para adicionar interatividade, como o menu responsivo e o modal de imagem.
+
+Google Fonts: Utilização da fonte "Poppins" para uma tipografia moderna.
+
+Ícones SVG: Ícones leves e escaláveis para elementos interativos e informativos.
+
+🚀 Como Executar o Projeto
+Clone o repositório:
+
+Bash
+
+git clone [https://github.com/DescomplicaDevDan/Perfil-de-viagens.git](https://github.com/DescomplicaDevDan/Perfil-de-viagens.git)
+Navegue até o diretório do projeto:
+
+Bash
+
+cd travelgram
+Abra o arquivo index.html em seu navegador web preferido.
+
+🤝 Contribuições
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+📞 Contato
 Danilo Texeira
